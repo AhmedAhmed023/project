@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+	<html dir="auto">
+		<head>
+			<title>LogIn</title>
+			<style>
+				#slide1{
+				width:50%;
+				padding-top:8%;
+				text-align:center;
+				float:left;
+				}
+				body{
+					font-family:Arial;
+					margin:0;
+				}
+				#form{
+					position:relative;
+					z-index:1;
+				}
+				#title-form{
+					font-size:30px;
+					font-weight:700;
+					margin-bottom:0;
+				}
+				#Light-line{
+					color:#686868;
+					margin-top:0;
+					margin-bottom:0.5%;
+				}
+				#vector{
+					width:16px;
+					height:21px;
+					margin-left:4%;
+					position: absolute;
+					margin-left: 2%;
+					margin-top: 1.5%;
+				}
+				input{
+					border:0;
+					margin-bottom:2%;
+					background-color:#f3f3f3;
+					font-size:12px;
+					padding:16px;
+					border-radius:15px;
+					width:258px;
+					padding-left:40px;
+				}
+				input::placeholder{
+					color:black;
+				}
+				button{
+					cursor:pointer;
+				}
+				#btn-login{
+					color:white;
+					background: linear-gradient(99.78deg, #9181F4 -5.85%, #5038ED 109.55%);
+					box-shadow: 0px 8px 21px 0px #00000029;
+					border-radius:16px;
+					padding:18px;
+					border:0;
+					width:124px;
+					height:52px;
+				}
+				#other{
+					color:#525252;
+				}
+				#Login-bold{
+					font-weight:700;
+					color:#1C1C1C;
+					line-height:24px;
+				}
+				.other-login:after,.other-login:before{
+					content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+					text-decoration:line-through;
+					color:#F0EDFF;
+				}
+				.btn-other{
+					width:364px;
+					height:52px;
+					background-color:white;
+					border: 1px solid #F0EDFF;
+					border-radius:15px;
+					margin-bottom:2%;
+					font-size:12px;
+				}
+				#logo-others{
+					width:30px;
+					height:30px;
+					vertical-align:middle;
+					margin-right:2%;
+				}
+				#slide2{
+					width:50%;
+					height:768px;
+					float:right;
+					background: linear-gradient(217.64deg, #9181F4 -5.84%, #5038ED 106.73%);
+				}
+				#slide22{
+					z-index:-1;
+					background : url('photos/background.png');
+					opacity:0.1;
+					height:768px;
+				}
+				#cover{
+					width:200px;
+					height:400px;
+					background-color:black;
+				}
+				#girl{
+					width:785px;
+					height:524px;
+					position: absolute;
+					right: 2%;
+					top: 122px;
+				}
+				#card{
+					position:absolute;
+					width: 412px;
+					height: 522.2px;
+					top: 122px;
+					right: 10%;
+					gap: 0px;
+					border-radius: 46px 46px 46px 46px;
+					opacity: 0.4;
+					border: 1px solid #FFFFFF85;
+					background-color:white;
+				}
+				#text-card{
+					position:absolute;
+					color:white;
+					font-size:32px;
+					font-weight:700;
+					line-height:46px;
+					top:118px;
+					right:25%;
+				}
+				#power{
+					width:72px;
+					height:72px;
+					position:absolute;
+					top:469px;
+					right:36%;
+					background-color:white;
+					border-radius:125px;
+				}
+				#power-icon{
+					width:42px;
+					height:42px;
+					position:absolute;
+					top:15px;
+					left:15px;
+				}
+			</style>	
+		</head>
+		<body>
+			<!--the first half!-->
+			<div id="slide1">
+				<form method="POST" id="form">
+					<p id="title-form">LOGIN</p>
+					<p id="Light-line">How to i get started lorem ipsum dolor at?</p>
+					<br>
+					<img id="vector" src="photos/vector.png" />
+					<input id="user" type="text" placeholder="Username" dir="auto" />
+					<br>
+					<img id="vector" src="photos/Vector (1).png" />
+					<input id="pass" type="password" placeholder="Password" dir="auto" />
+					<br>
+					<button id="btn-login">Login Now</button>
+					<p id="other" class="other-login"><span id="Login-bold">Login </span> with Others</p>
+					<button id="other" class="btn-other">
+						<img id="logo-others" src='photos/google.png' />Login with <span id="Login-bold">google</span>
+					</button>
+					<br>
+					<button id="other" class="btn-other">
+						<img id="logo-others" src='photos/facebook.png' />Login with <span id="Login-bold">Facebook</span>
+					</button>
+				</form>
+			</div>
+			<!--the other half!-->
+			<div id="slide2">
+			
+				<div id="card"></div>
+				
+				<div id="slide22"></div><!-- This div to make the image as wallpaper with opacity
+				
+				<!--absolute elements!-->
+				<img id="girl" src="photos/girl.png" />
+				
+						<p id="text-card">
+							Very good
+							<br>
+							works are
+							<br>
+							waiting for 
+							<br>
+							you Login
+							<br>
+							Now!!!
+						</p>
+						
+				<div id="power">
+					<img id="power-icon" src="photos/power.png" />
+				</div>
+				
+			</div>
+		</body>
+	</html>
+					
+					
